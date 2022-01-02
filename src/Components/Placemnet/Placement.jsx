@@ -7,7 +7,7 @@ export const Placement = () => {
   return (
     <div>
       <div>
-        <h1 style={{ textAlign: "center" }}>Achievements</h1>
+        <h1 className="Content-head">Achievements</h1>
       </div>
       <div className="content-placement">
         {Placedata.map((item) => (

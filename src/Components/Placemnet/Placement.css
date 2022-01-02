@@ -1,11 +1,27 @@
 
+.content-card-main{
+   /* background-color: blue !important; */
+   width: 16rem;
+   background-color: rgba(10,10,10,0.1) !important;
+   box-shadow: 5px 5px 10px rgba(10,10,10,0.4);
+     margin-top: 30px;
+     
+
+}
+.Content-head{
+    text-align: center;
+    font-family: Tahoma, sans-serif;
+    color:  rgba(10,10,10,0.9);
+}
+
+/* .content-placement :hover{
+    transition: calc(0.8);
+} */
 .content-placement{
    display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     text-align: center;
-    margin-left: 80px;
-    margin-top: 50px;
-    /* box-shadow: 10px 10px 10px black; */
+    margin-left: 70px;
     
 }

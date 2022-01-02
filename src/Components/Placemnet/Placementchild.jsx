@@ -5,10 +5,15 @@ import { Card } from "react-bootstrap";
 export const Placementchild = ({ item }) => {
   return (
     <div>
-      <Card style={{ width: "16rem", backgroundColor: "rgba(10,10,10,0.1)" }}>
+      <Card className="content-card-main">
         <Card.Img
           variant="top"
-          style={{ width: "200px", marginLeft: "30px", marginTop: "20px" }}
+          style={{
+            width: "200px",
+            marginLeft: "30px",
+            marginTop: "20px",
+            borderRadius: "50%",
+          }}
           src={item.img}
         />
         <Card.Body>
