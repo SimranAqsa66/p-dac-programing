@@ -1,0 +1,25 @@
+.Title{
+    text-align: center;
+    color:#35373E;
+    font:36px;
+    font-family:Comfortaa, cursive;
+    padding:20px 0px 40px;
+}
+
+.Heading-1{
+  color:#777777;
+  font:19px;
+  font-size:x-large;
+  font-family:Comfortaa, cursive;
+  margin:0px 0px 15px;
+  padding-left:7rem;
+  padding-right:7rem;
+  
+}
+
+footer{
+    background-color:#00438B;
+    color:white;
+    padding:15px 0px;
+    padding-left:7rem;
+}
