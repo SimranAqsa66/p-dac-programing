@@ -32,7 +32,7 @@ export const Nav = () => {
               </li>
               <li>
                 <Link className="content-A" to="/placement">
-                  {/* <i class="far fa-handshake"></i> */}
+                  {/* <i class="far fa-handshake"></i>  */}
                   Placement
                 </Link>
               </li>

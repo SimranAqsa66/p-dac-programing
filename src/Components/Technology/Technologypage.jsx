@@ -18,6 +18,8 @@ const Technologypage = () => {
           <TechonolgyItem item={item} />
         ))}
       </div>
+      <footer>Copyrights © 2022. All rights reserved by Pickupbiz <i class="fab fa-twitter-square"></i>  <i class="fab fa-instagram"></i>  <i class="fab fa-facebook-square"></i></footer>
+
     </div>
   );
 };

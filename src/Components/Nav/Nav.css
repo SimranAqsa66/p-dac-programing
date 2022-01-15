@@ -57,7 +57,7 @@
 .content-A{
     color: #00000080;
     font-size: 18px;
-    padding: 20px;
+    /* padding: 20px; */
     text-decoration: none;
     font-weight:lighter;
     transition: 0.6s;
@@ -70,7 +70,7 @@
 .content-A:hover{
     /* background: wheat; */
     color:rgba(7, 7,7, 0.7);
-    padding: 10px;
+    /* padding: 10px; */
     border-bottom: 2px solid rgba(7, 7,7, 0.7);
     
 }

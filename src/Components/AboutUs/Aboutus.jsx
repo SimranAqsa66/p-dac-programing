@@ -1,7 +1,7 @@
 import { Data } from "../../Service/Data";
-import { ServiceItem } from "../Servic/ServiceItem";
-import "../Servic/ServiceItm.css";
+import { AboutUsItem } from "../AboutUs/AboutUsItem";
 import "./AboutUs.css";
+import "./AboutUsItem.css";
 
 
 const Aboutus = () => {
@@ -47,12 +47,12 @@ const Aboutus = () => {
       </div>
       <div>
         {Data.map((item) => (
-          <ServiceItem img={item.img} title={item.title} parag={item.parag} />
+          <AboutUsItem img={item.img} title={item.title} parag={item.parag} />
         ))}
       </div>
       </div>
          
-        <footer>Copyrights © 2022. All rights reserved by Pickupbiz</footer>
+        <footer>Copyrights © 2022. All rights reserved by Pickupbiz <i class="fab fa-twitter-square"></i>  <i class="fab fa-instagram"></i>  <i class="fab fa-facebook-square"></i></footer>
         
  
         </div>

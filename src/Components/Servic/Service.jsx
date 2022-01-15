@@ -15,6 +15,8 @@ const Service = () => {
           <ServiceItem img={item.img} title={item.title} parag={item.parag} />
         ))}
       </div>
+      {/* <footer>Copyrights © 2022. All rights reserved by Pickupbiz</footer> */}
+
     </div>
   );
 };

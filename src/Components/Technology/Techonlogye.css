@@ -39,3 +39,35 @@
    top: 200px;
    left: 100px;
 } 
+
+
+footer{
+    background-color:#00438B;
+    color:white;
+    padding:15px 0px;
+    padding-left:7rem;
+}
+
+
+
+.fa-facebook-square{
+    padding:5px;
+    margin:5px;
+    float:right;
+}
+
+.fa-instagram{
+padding:5px;
+margin:5px;
+float:right;
+
+
+}
+
+
+.fa-twitter-square{
+    padding:5px;
+    margin:5px;
+    float:right;
+
+}
