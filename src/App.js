@@ -1,4 +1,6 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+
 // import { BrowserRouter, Routes, Route } from "react-router-dom";
 // import { Home } from './Components/Pages/Home';
 // import { Courses } from './Components/Pages/Courses';
@@ -10,7 +12,7 @@ import './App.css';
 // import { NavLib } from "react-navlib-pickupbiz";
 
 import { Homepage } from './Components/Home/Homepage';
-// import Navbar from './Components/Navigation/Navbar';
+
 // import { Nav } from './Components/Nav/Nav';
 
 function App() {
@@ -66,8 +68,8 @@ function App() {
 //   </BrowserRouter>
 // );
     <div >
-      {/* <Navbar />
-      <Nav /> */}
+
+      {/* <Nav /> */}
       <Homepage />
 
     </div>
